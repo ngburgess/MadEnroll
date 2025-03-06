@@ -1,0 +1,43 @@
+html .mat-badge-large.mat-badge-above.course-gpa-badge .mat-badge-content.course-gpa-badge { 
+    top: -3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 5px;
+    min-height: 120%;
+    line-height: 140%;
+}
+
+html .mat-badge-medium.mat-badge-below.instructor-gpa-badge .mat-badge-content.instructor-gpa-badge {
+    top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 2px;
+    max-height: 100%;
+    line-height: 160%;
+}
+
+html .stretch-badge.mat-badge-content {
+    width: auto;
+    border-radius: 24px;
+    right: unset !important;
+}
+
+/* 3.5 and above */
+html .good-gpa {
+    background-color: rgb(7, 198, 42);
+}
+
+/* 3.0 to 3.5 */
+html .med-gpa {
+    background-color: rgb(255, 162, 13);
+}
+
+/* 3.0 and below */
+html .bad-gpa {
+    background-color: rgb(255, 39, 15);
+}
+
+/* NaN */
+html .not-found {
+    background-color: dimgray;
+}
